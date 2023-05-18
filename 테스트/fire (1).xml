@@ -1,0 +1,26 @@
+<annotation>
+	<folder>화재</folder>
+	<filename>fire (1).jpg</filename>
+	<path>E:\렙실\화재 데이터셋\화재\fire (1).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>340</width>
+		<height>255</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fire</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>182</xmin>
+			<ymin>103</ymin>
+			<xmax>226</xmax>
+			<ymax>146</ymax>
+		</bndbox>
+	</object>
+</annotation>
