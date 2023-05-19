@@ -1,22 +1,38 @@
-import keras
-from keras.models import Sequential
-from keras.layers import Conv2D, MaxPooling2D, Dense, Flatten
-from keras.preprocessing.image import ImageDataGenerator
-import tensorflow as tf
+import cv2
+import numpy as np
+from keras.models import load_model
+import os
+
 # 저장된 모델 로드
-model = tf.keras.models.load_model('model.h5')
+model = load_model('model.h5')
 
-# 테스트 데이터셋을 로드합니다.
-# test_datagen = ImageDataGenerator(rescale=1./255)  # 전처리 스케일링만 적용합니다.
-train_datagen = ImageDataGenerator(rescale=1./255,
-                                   shear_range=0.2,
-                                   zoom_range=0.2,
-                                   horizontal_flip=True)
-test_generator =train_datagen.flow_from_directory('./dataset/fire_dataset/',
-                                                   target_size=(224, 224),
-                                                   batch_size=32,
-                                                   class_mode='binary')
+# 이미지 폴더 경로
+test_folder = './testset/set/'
 
-# 모델 평가
-evaluation = model.evaluate(test_generator)
-print('Test Accuracy:', evaluation[1])
+# 결과 저장용 파일
+result_file = './results.txt'
+
+# 설정 변수
+IMG_SIZE = 100
+
+# 폴더의 이미지를 불 있는지 없는지 검사
+with open(result_file, 'w') as f:
+    for img in os.listdir(test_folder):
+        try:
+            # 이미지 로드 및 크기 변경
+            img_array = cv2.imread(os.path.join(test_folder, img))
+            resized_img_array = cv2.resize(img_array, (IMG_SIZE, IMG_SIZE))
+            input_data = np.expand_dims(resized_img_array, axis=0).astype('float32') / 255.0
+            
+            # 이미지를 모델에 전달하고 결과 예측
+            prediction = model.predict(input_data)
+            if prediction[0][0] < 0.5:
+                fire_status = "fire"
+            else:
+                fire_status = "no_fire"
+            
+            # 이미지 파일 이름과 결과 출력 및 저장
+            print(f"{img}: {fire_status}")
+            f.write(f"{img}: {fire_status}\n")
+        except Exception as e:
+            print(f"Error: {e}")

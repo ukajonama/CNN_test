@@ -1,0 +1,116 @@
+city (1).jpg: fire
+city (1).png: no_fire
+city (10).jpg: no_fire
+city (11).jpg: no_fire
+city (12).jpg: no_fire
+city (13).jpg: no_fire
+city (14).jpg: no_fire
+city (15).jpg: no_fire
+city (16).jpg: no_fire
+city (17).jpg: no_fire
+city (18).jpg: no_fire
+city (19).jpg: no_fire
+city (2).jpg: no_fire
+city (20).jpg: no_fire
+city (21).jpg: no_fire
+city (22).jpg: no_fire
+city (23).jpg: no_fire
+city (24).jpg: no_fire
+city (25).jpg: no_fire
+city (26).jpg: no_fire
+city (27).jpg: no_fire
+city (28).jpg: no_fire
+city (29).jpg: no_fire
+city (3).jpg: no_fire
+city (30).jpg: no_fire
+city (31).jpg: no_fire
+city (32).jpg: no_fire
+city (33).jpg: no_fire
+city (34).jpg: no_fire
+city (35).jpg: no_fire
+city (36).jpg: no_fire
+city (37).jpg: no_fire
+city (38).jpg: no_fire
+city (39).jpg: no_fire
+city (4).jpg: no_fire
+city (40).jpg: no_fire
+city (41).jpg: no_fire
+city (42).jpg: no_fire
+city (43).jpg: no_fire
+city (44).jpg: no_fire
+city (45).jpg: no_fire
+city (46).jpg: no_fire
+city (47).jpg: no_fire
+city (48).jpg: no_fire
+city (49).jpg: fire
+city (5).jpg: no_fire
+city (50).jpg: no_fire
+city (51).jpg: no_fire
+city (52).jpg: no_fire
+city (53).jpg: no_fire
+city (54).jpg: no_fire
+city (6).jpg: no_fire
+city (7).jpg: no_fire
+city (8).jpg: no_fire
+city (9).jpg: fire
+fire (106).jpg: fire
+fire (114).jpg: fire
+fire (131).jpg: fire
+fire (14).jpg: no_fire
+fire (2).jpg: fire
+fire (209).jpg: fire
+fire (211).jpg: fire
+fire (230).jpg: fire
+fire (259).jpg: fire
+fire (352).jpg: fire
+fire (353).jpg: fire
+fire (374).jpg: fire
+fire (97).jpg: fire
+fire105.jpg: fire
+fire119.jpg: fire
+fire121.jpg: fire
+fire125.jpg: fire
+fire33.jpg: fire
+fire34.jpg: fire
+fire46.jpg: fire
+fire99.jpg: fire
+naver_0084.jpg: fire
+naver_0123.jpg: fire
+naver_0315.jpg: fire
+naver_0361.jpg: fire
+naver_0373.png: fire
+naver_0375.jpg: fire
+naver_0472.jpg: fire
+naver_0480.jpg: fire
+naver_0485.jpg: fire
+naver_0486.png: fire
+naver_0493.jpg: fire
+naver_0494.jpg: fire
+wild fire12.jpg: fire
+wild fire13.jpg: fire
+wild fire16.jpg: fire
+wild fire17.jpg: fire
+wild fire21.jpg: fire
+wild fire27.jpg: fire
+wild fire5.jpg: fire
+wild fire80.jpg: fire
+wild fire86.jpg: fire
+wild fire9.jpg: fire
+wildfire (1).jpg: fire
+wildfire (111).jpg: no_fire
+wildfire (15).jpg: fire
+wildfire (152).jpg: fire
+wildfire (19).jpg: fire
+wildfire (198).jpg: fire
+wildfire (202).jpg: fire
+wildfire (205).jpg: fire
+wildfire (206).jpg: fire
+wildfire (24).jpg: fire
+wildfire (25).jpg: fire
+wildfire (26).jpg: fire
+wildfire (27).jpg: fire
+wildfire (36).jpg: fire
+wildfire (373).jpg: fire
+wildfire (40).jpg: fire
+wildfire (82).jpg: fire
+wildfire (98).jpg: fire
